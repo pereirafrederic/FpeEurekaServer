@@ -10,9 +10,6 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @EnableEurekaServer
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan
 public class FpeEurekaApplication {
 
 	public static void main(String[] args) {
